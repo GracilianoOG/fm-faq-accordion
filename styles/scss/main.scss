@@ -4,8 +4,10 @@
 @use "./partials/variables";
 
 body {
-  /* Temporary color */
-  background-color: rgb(29, 29, 29);
+  background-image: linear-gradient(
+    map.get(variables.$background-colors, "soft-violet"),
+    map.get(variables.$background-colors, "soft-blue")
+  );
   display: flex;
   align-items: center;
   justify-content: center;
