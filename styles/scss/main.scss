@@ -4,6 +4,8 @@
 @use "./partials/variables";
 
 body {
+  /* Temporary color */
+  background-color: rgb(29, 29, 29);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,6 +13,9 @@ body {
 }
 
 .FAQ {
+  background-color: white;
+  border-radius: 1.5rem;
+  padding: 2rem;
   width: 375px;
 }
 
