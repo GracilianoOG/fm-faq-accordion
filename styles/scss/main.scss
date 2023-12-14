@@ -1,5 +1,7 @@
+@use "sass:map";
 @use "./partials/reset";
 @use "./partials/typography";
+@use "./partials/variables";
 
 body {
   display: flex;
@@ -14,4 +16,5 @@ body {
 
 .FAQ__title {
   text-align: center;
+  color: map.get(variables.$primary-text-colors, "very-dark-blue");
 }
