@@ -26,7 +26,6 @@ body {
   padding: 2rem;
   width: 375px;
 }
-
 .FAQ__title {
   color: hsl(238, 29%, 16%);
   font-size: 2rem;
@@ -38,12 +37,10 @@ body {
   margin-bottom: 1.5rem;
   padding-bottom: 1.5rem;
 }
-
 .accordion__summary {
   color: hsl(237, 12%, 33%);
   list-style-type: none;
 }
-
 .accordion__description {
   color: hsl(240, 6%, 50%);
   margin-top: 1rem;
