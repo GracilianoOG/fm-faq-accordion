@@ -35,6 +35,10 @@ body {
   &__summary {
     color: map.get(variables.$neutral-text-colors, "very-dark-blue");
     list-style-type: none;
+
+    &:active {
+      color: map.get(variables.$primary-text-colors, "soft-red");
+    }
   }
 
   &__description {
