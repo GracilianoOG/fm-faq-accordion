@@ -39,6 +39,7 @@ body {
 }
 .accordion__summary {
   color: hsl(237, 12%, 33%);
+  cursor: pointer;
   list-style-type: none;
 }
 .accordion__summary:active {

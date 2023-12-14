@@ -34,6 +34,7 @@ body {
 
   &__summary {
     color: map.get(variables.$neutral-text-colors, "very-dark-blue");
+    cursor: pointer;
     list-style-type: none;
 
     &:active {
