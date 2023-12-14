@@ -1,8 +1,13 @@
 @use "./partials/reset";
+@use "./partials/typography";
 
 body {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+}
+
+.FAQ {
+  width: 375px;
 }
