@@ -7,8 +7,9 @@
 .FAQ {
   background-color: map.get(variables.$background-colors, "white");
   border-radius: 1.5rem;
-  padding: 2rem;
-  width: 375px;
+  max-width: 330px;
+  padding: 1.5rem;
+  width: 88%;
 
   &__title {
     color: map.get(variables.$primary-text-colors, "very-dark-blue");
@@ -37,7 +38,7 @@
     color: map.get(variables.$neutral-text-colors, "very-dark-blue");
     cursor: pointer;
     display: flex;
-    font-size: 15px;
+    font-size: 13px;
     justify-content: space-between;
     list-style-type: none;
 
@@ -48,6 +49,8 @@
 
   &__description {
     color: map.get(variables.$neutral-text-colors, "dark-blue");
+    font-size: 12px;
+    line-height: 1.5;
     margin-top: 1rem;
   }
 }
