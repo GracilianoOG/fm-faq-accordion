@@ -21,8 +21,8 @@
 
 .accordion {
   border-bottom: 1px solid map.get(variables.$divider-colors, "light-blue");
-  margin-bottom: 1.5rem;
-  padding-bottom: 1.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
 
   &[open] > &__summary {
     color: map.get(variables.$primary-text-colors, "very-dark-blue");
@@ -51,6 +51,6 @@
     color: map.get(variables.$neutral-text-colors, "dark-blue");
     font-size: 12px;
     line-height: 1.5;
-    margin-top: 1rem;
+    margin-top: 0.75rem;
   }
 }
