@@ -38,9 +38,20 @@ body {
   margin-bottom: 1.5rem;
   padding-bottom: 1.5rem;
 }
+.accordion[open] > .accordion__summary {
+  color: hsl(238, 29%, 16%);
+  font-weight: 700;
+}
+.accordion[open] .accordion__icon {
+  transform: rotate(180deg);
+}
 .accordion__summary {
+  align-items: center;
   color: hsl(237, 12%, 33%);
   cursor: pointer;
+  display: flex;
+  font-size: 15px;
+  justify-content: space-between;
   list-style-type: none;
 }
 .accordion__summary:active {

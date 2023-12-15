@@ -33,9 +33,22 @@ body {
   margin-bottom: 1.5rem;
   padding-bottom: 1.5rem;
 
+  &[open] > &__summary {
+    color: map.get(variables.$primary-text-colors, "very-dark-blue");
+    font-weight: 700;
+  }
+
+  &[open] &__icon {
+    transform: rotate(180deg);
+  }
+
   &__summary {
+    align-items: center;
     color: map.get(variables.$neutral-text-colors, "very-dark-blue");
     cursor: pointer;
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
     list-style-type: none;
 
     &:active {
