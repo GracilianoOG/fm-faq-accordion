@@ -21,7 +21,7 @@ body {
 }
 
 .FAQ {
-  background-color: white;
+  background-color: hsl(0, 0%, 100%);
   border-radius: 1.5rem;
   padding: 2rem;
   width: 375px;

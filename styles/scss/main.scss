@@ -15,7 +15,7 @@ body {
 }
 
 .FAQ {
-  background-color: white;
+  background-color: map.get(variables.$background-colors, "white");
   border-radius: 1.5rem;
   padding: 2rem;
   width: 375px;
