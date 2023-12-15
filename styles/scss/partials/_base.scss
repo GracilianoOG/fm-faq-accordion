@@ -6,8 +6,11 @@ body {
     map.get(variables.$background-colors, "soft-violet"),
     map.get(variables.$background-colors, "soft-blue")
   );
-  display: flex;
+}
+
+main {
   align-items: center;
+  display: flex;
   justify-content: center;
   min-height: 100vh;
 }
