@@ -28,6 +28,7 @@ h3 {
   border-radius: 1.5rem;
   max-width: 420px;
   padding: 1.5rem;
+  padding-top: 0;
   width: 88%;
 }
 .FAQ__title {
@@ -66,6 +67,18 @@ h3 {
   font-size: 12px;
   line-height: 1.5;
   margin-top: 0.75rem;
+}
+
+.illustrations {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.illustration {
+  position: absolute;
+  transform: translateY(-108px);
+  width: 240px;
 }
 
 @media screen and (min-width: 992px) {
