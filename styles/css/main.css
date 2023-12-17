@@ -73,12 +73,15 @@ h3 {
   display: flex;
   justify-content: center;
   position: relative;
+  margin: 0 auto;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .illustration {
   position: absolute;
   transform: translateY(-108px);
-  width: 240px;
+  width: 100%;
 }
 
 @media screen and (min-width: 992px) {
