@@ -62,8 +62,9 @@ h3 {
   font-size: 13px;
   justify-content: space-between;
   list-style-type: none;
+  transition: color 0.2s;
 }
-.accordion__summary:active {
+.accordion__summary:hover {
   color: hsl(14, 88%, 65%);
 }
 .accordion__description {

@@ -47,8 +47,9 @@
     font-size: 13px;
     justify-content: space-between;
     list-style-type: none;
+    transition: color 0.2s;
 
-    &:active {
+    &:hover {
       color: map.get(variables.$primary-text-colors, "soft-red");
     }
   }
