@@ -95,9 +95,9 @@ h3 {
 
 @media screen and (min-width: 992px) {
   .FAQ {
+    align-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    place-items: center;
     max-width: 900px;
     overflow: hidden;
     padding: 4rem 6rem 4rem 0;
