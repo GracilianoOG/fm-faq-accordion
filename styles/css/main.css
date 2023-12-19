@@ -90,13 +90,24 @@ h3 {
 
 @media screen and (min-width: 992px) {
   .FAQ {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
     max-width: 900px;
-    width: 70%;
+    overflow: hidden;
+    padding: 4rem 6rem 4rem 0;
   }
   .FAQ__title {
     text-align: left;
+  }
+  .FAQ__illustrations {
+    margin-bottom: 0;
+  }
+  .accordion {
+    padding-right: 1rem;
+  }
+  .illustration {
+    transform: translateX(-83px);
+    position: static;
   }
 }
