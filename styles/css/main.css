@@ -116,6 +116,9 @@ h3 {
   .accordion__description {
     font-size: 11px;
   }
+  .accordion__summary {
+    font-size: 14px;
+  }
   .illustration--woman {
     transform: translateX(-83px);
     position: static;
