@@ -74,7 +74,7 @@
   width: fit-content;
 }
 
-.illustration {
+.illustration--woman {
   position: absolute;
   transform: translateY(-108px);
   width: 100%;
@@ -108,7 +108,7 @@
     position: static;
   }
 
-  .shadow {
+  .illustration--pattern {
     position: absolute;
     transform: translate(-330px, -365px);
   }

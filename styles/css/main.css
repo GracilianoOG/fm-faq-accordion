@@ -87,7 +87,7 @@ h3 {
   width: fit-content;
 }
 
-.illustration {
+.illustration--woman {
   position: absolute;
   transform: translateY(-108px);
   width: 100%;
@@ -116,7 +116,7 @@ h3 {
     transform: translateX(-83px);
     position: static;
   }
-  .shadow {
+  .illustration--pattern {
     position: absolute;
     transform: translate(-330px, -365px);
   }
