@@ -102,6 +102,10 @@
 
   .accordion {
     padding-right: 1rem;
+
+    &__description {
+      font-size: 11px;
+    }
   }
 
   .illustration--woman {

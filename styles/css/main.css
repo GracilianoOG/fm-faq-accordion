@@ -113,6 +113,9 @@ h3 {
   .accordion {
     padding-right: 1rem;
   }
+  .accordion__description {
+    font-size: 11px;
+  }
   .illustration--woman {
     transform: translateX(-83px);
     position: static;
