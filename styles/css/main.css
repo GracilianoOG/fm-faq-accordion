@@ -95,7 +95,6 @@ h3 {
 
 @media screen and (min-width: 992px) {
   .FAQ {
-    align-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 900px;
@@ -105,6 +104,8 @@ h3 {
   }
   .FAQ__title {
     text-align: left;
+    margin-bottom: 2.5rem;
+    line-height: 1;
   }
   .FAQ__illustrations {
     margin-bottom: 0;
