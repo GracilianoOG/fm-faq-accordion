@@ -107,4 +107,9 @@
     transform: translateX(-83px);
     position: static;
   }
+
+  .shadow {
+    position: absolute;
+    transform: translate(-330px, -365px);
+  }
 }
