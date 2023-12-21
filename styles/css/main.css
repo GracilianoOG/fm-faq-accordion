@@ -111,7 +111,7 @@ h3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     overflow: hidden;
-    padding: 4rem 5.6rem 4rem 0;
+    padding: 4.3rem 5.6rem 4.6rem 0;
   }
   .FAQ__title {
     line-height: 1;
