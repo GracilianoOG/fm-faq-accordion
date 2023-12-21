@@ -26,8 +26,8 @@ h3 {
 .FAQ {
   background-color: hsl(0, 0%, 100%);
   border-radius: 1.5rem;
-  max-width: 420px;
-  margin-top: 108px;
+  max-width: 26.25rem;
+  margin-top: 6.75rem;
   width: 88%;
 }
 .FAQ__content {
@@ -50,7 +50,7 @@ h3 {
 }
 
 .accordion {
-  border-bottom: 1px solid hsl(240, 5%, 91%);
+  border-bottom: 0.0625rem solid hsl(240, 5%, 91%);
   padding-bottom: 1rem;
 }
 .accordion[open] > .accordion__summary {
@@ -65,7 +65,7 @@ h3 {
   color: hsl(237, 12%, 33%);
   cursor: pointer;
   display: flex;
-  font-size: 13px;
+  font-size: 0.8125rem;
   justify-content: space-between;
   list-style-type: none;
   transition: color 0.2s;
@@ -75,7 +75,7 @@ h3 {
 }
 .accordion__description {
   color: hsl(240, 6%, 50%);
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 1.5;
   margin-top: 0.75rem;
 }
@@ -91,21 +91,21 @@ h3 {
 
 .illustration--woman {
   position: absolute;
-  transform: translateY(-108px);
+  transform: translateY(-6.75rem);
   width: 100%;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 62rem) {
   .FAQ {
-    max-width: 900px;
+    max-width: 56.25rem;
     margin-top: 0;
     position: relative;
   }
   .FAQ::after {
     content: url("../../assets/images/desktop/illustration-box-desktop.svg");
-    left: -93px;
+    left: -5.8125rem;
     position: absolute;
-    top: 204px;
+    top: 12.75rem;
   }
   .FAQ__content {
     display: grid;
@@ -125,17 +125,17 @@ h3 {
     padding-right: 1rem;
   }
   .accordion__description {
-    font-size: 11px;
+    font-size: 0.6875rem;
   }
   .accordion__summary {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .illustration--woman {
     position: static;
-    transform: translateX(-83px);
+    transform: translateX(-5.1875rem);
   }
   .illustration--pattern {
     position: absolute;
-    transform: translate(-330px, -365px);
+    transform: translate(-20.625rem, -22.8125rem);
   }
 }

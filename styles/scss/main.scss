@@ -7,8 +7,8 @@
 .FAQ {
   background-color: map.get(variables.$background-colors, "white");
   border-radius: 1.5rem;
-  max-width: 420px;
-  margin-top: 108px;
+  max-width: 26.25rem;
+  margin-top: 6.75rem;
   width: 88%;
 
   &__content {
@@ -34,7 +34,8 @@
 }
 
 .accordion {
-  border-bottom: 1px solid map.get(variables.$divider-colors, "light-blue");
+  border-bottom: 0.0625rem solid
+    map.get(variables.$divider-colors, "light-blue");
   padding-bottom: 1rem;
 
   &[open] > &__summary {
@@ -51,7 +52,7 @@
     color: map.get(variables.$neutral-text-colors, "very-dark-blue");
     cursor: pointer;
     display: flex;
-    font-size: 13px;
+    font-size: 0.8125rem;
     justify-content: space-between;
     list-style-type: none;
     transition: color 0.2s;
@@ -63,7 +64,7 @@
 
   &__description {
     color: map.get(variables.$neutral-text-colors, "dark-blue");
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 1.5;
     margin-top: 0.75rem;
   }
@@ -79,21 +80,21 @@
 
 .illustration--woman {
   position: absolute;
-  transform: translateY(-108px);
+  transform: translateY(-6.75rem);
   width: 100%;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 62rem) {
   .FAQ {
-    max-width: 900px;
+    max-width: 56.25rem;
     margin-top: 0;
     position: relative;
 
     &::after {
       content: url("../../assets/images/desktop/illustration-box-desktop.svg");
-      left: -93px;
+      left: -5.8125rem;
       position: absolute;
-      top: 204px;
+      top: 12.75rem;
     }
 
     &__content {
@@ -118,23 +119,23 @@
     padding-right: 1rem;
 
     &__description {
-      font-size: 11px;
+      font-size: 0.6875rem;
     }
 
     &__summary {
-      font-size: 14px;
+      font-size: 0.875rem;
     }
   }
 
   .illustration {
     &--woman {
       position: static;
-      transform: translateX(-83px);
+      transform: translateX(-5.1875rem);
     }
 
     &--pattern {
       position: absolute;
-      transform: translate(-330px, -365px);
+      transform: translate(-20.625rem, -22.8125rem);
     }
   }
 }
