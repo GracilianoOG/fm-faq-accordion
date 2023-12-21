@@ -69,8 +69,8 @@
 .illustrations {
   display: flex;
   justify-content: center;
-  position: relative;
   margin: 0 auto;
+  position: relative;
   width: fit-content;
 }
 
@@ -90,9 +90,9 @@
     padding: 4rem 5.6rem 4rem 0;
 
     &__title {
-      text-align: left;
-      margin-bottom: 2.5rem;
       line-height: 1;
+      margin-bottom: 2.5rem;
+      text-align: left;
     }
 
     &__illustrations {
@@ -114,8 +114,8 @@
 
   .illustration {
     &--woman {
-      transform: translateX(-83px);
       position: static;
+      transform: translateX(-83px);
     }
 
     &--pattern {
