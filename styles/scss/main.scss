@@ -9,8 +9,11 @@
   border-radius: 1.5rem;
   max-width: 420px;
   margin-top: 108px;
-  padding: 0 1.5rem 2.9rem 1.5rem;
   width: 88%;
+
+  &__content {
+    padding: 0 1.5rem 2.9rem 1.5rem;
+  }
 
   &__title {
     color: map.get(variables.$primary-text-colors, "very-dark-blue");
@@ -84,7 +87,6 @@
   .FAQ {
     max-width: 900px;
     margin-top: 0;
-    padding: 0;
     position: relative;
 
     &::after {
