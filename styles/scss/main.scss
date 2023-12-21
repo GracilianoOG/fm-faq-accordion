@@ -112,13 +112,15 @@
     }
   }
 
-  .illustration--woman {
-    transform: translateX(-83px);
-    position: static;
-  }
+  .illustration {
+    &--woman {
+      transform: translateX(-83px);
+      position: static;
+    }
 
-  .illustration--pattern {
-    position: absolute;
-    transform: translate(-330px, -365px);
+    &--pattern {
+      position: absolute;
+      transform: translate(-330px, -365px);
+    }
   }
 }
