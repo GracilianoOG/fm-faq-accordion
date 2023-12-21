@@ -82,12 +82,24 @@
 
 @media screen and (min-width: 992px) {
   .FAQ {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     max-width: 900px;
     margin-top: 0;
-    overflow: hidden;
-    padding: 4rem 5.6rem 4rem 0;
+    padding: 0;
+    position: relative;
+
+    &::after {
+      content: url("../../assets/images/desktop/illustration-box-desktop.svg");
+      left: -93px;
+      position: absolute;
+      top: 200px;
+    }
+
+    &__content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      overflow: hidden;
+      padding: 4rem 5.6rem 4rem 0;
+    }
 
     &__title {
       line-height: 1;
