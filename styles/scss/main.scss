@@ -90,6 +90,7 @@
 
     &::after {
       content: url("../../assets/images/desktop/illustration-box-desktop.svg");
+      filter: drop-shadow(0 0.625rem 0.625rem rgba(0, 0, 0, 0.3));
       left: -5.8125rem;
       position: absolute;
       top: 12.75rem;
