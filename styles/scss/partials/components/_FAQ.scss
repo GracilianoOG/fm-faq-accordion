@@ -29,7 +29,7 @@
   }
 }
 
-@media screen and (min-width: 62rem) {
+@media screen and (min-width: map.get(variables.$media-queries, "large")) {
   .FAQ {
     max-width: 56.25rem;
     margin-top: 0;
