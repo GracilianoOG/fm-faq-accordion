@@ -1,8 +1,10 @@
 @use "sass:map";
-@use "./partials/reset";
-@use "./partials/base";
-@use "./partials/typography";
-@use "./partials/variables";
+
+// Base
+@use "./partials/base/reset";
+@use "./partials/base/base";
+@use "./partials/base/typography";
+@use "./partials/base/variables";
 
 .FAQ {
   background-color: map.get(variables.$background-colors, "white");
