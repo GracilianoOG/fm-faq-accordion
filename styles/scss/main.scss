@@ -8,17 +8,3 @@
 @use "./partials/components/accordions";
 @use "./partials/components/accordion";
 @use "./partials/components/illustration";
-
-@media screen and (min-width: 62rem) {
-  .illustration {
-    &--woman {
-      position: static;
-      transform: translateX(-5.1875rem);
-    }
-
-    &--pattern {
-      position: absolute;
-      transform: translate(-20.625rem, -22.8125rem);
-    }
-  }
-}
