@@ -1,0 +1,16 @@
+@use "sass:map";
+@use "./variables";
+
+body {
+  background-image: linear-gradient(
+    map.get(variables.$background-colors, "soft-violet"),
+    map.get(variables.$background-colors, "soft-blue")
+  );
+}
+
+main {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
