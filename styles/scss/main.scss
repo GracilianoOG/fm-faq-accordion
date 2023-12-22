@@ -1,3 +1,4 @@
+// Modules
 @use "sass:map";
 
 // Base
@@ -6,6 +7,7 @@
 @use "./partials/base/typography";
 @use "./partials/base/variables";
 
+// Components
 @use "./partials/components/FAQ";
 
 .accordions {
