@@ -23,7 +23,11 @@
   }
 
   &__illustrations {
-    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 1.5rem auto;
+    position: relative;
+    width: fit-content;
   }
 }
 
@@ -68,14 +72,6 @@
     line-height: 1.5;
     margin-top: 0.75rem;
   }
-}
-
-.illustrations {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  position: relative;
-  width: fit-content;
 }
 
 .illustration--woman {
