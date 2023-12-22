@@ -10,18 +10,6 @@
 @use "./partials/components/illustration";
 
 @media screen and (min-width: 62rem) {
-  .accordion {
-    padding-right: 1rem;
-
-    &__description {
-      font-size: 0.6875rem;
-    }
-
-    &__summary {
-      font-size: 0.875rem;
-    }
-  }
-
   .illustration {
     &--woman {
       position: static;
