@@ -49,6 +49,35 @@ h3 {
   width: fit-content;
 }
 
+@media screen and (min-width: 62rem) {
+  .FAQ {
+    max-width: 56.25rem;
+    margin-top: 0;
+    margin-left: 2.625rem;
+    position: relative;
+  }
+  .FAQ::after {
+    content: url("../../assets/images/desktop/illustration-box-desktop.svg");
+    filter: drop-shadow(0 0.625rem 0.625rem rgba(0, 0, 0, 0.3));
+    left: -5.8125rem;
+    position: absolute;
+    top: 12.75rem;
+  }
+  .FAQ__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+    padding: 4.3rem 5.6rem 3.85rem 0;
+  }
+  .FAQ__title {
+    line-height: 1;
+    margin-bottom: 2.5rem;
+    text-align: left;
+  }
+  .FAQ__illustrations {
+    margin-bottom: 0.75rem;
+  }
+}
 .accordions {
   display: flex;
   flex-direction: column;
@@ -93,33 +122,6 @@ h3 {
 }
 
 @media screen and (min-width: 62rem) {
-  .FAQ {
-    max-width: 56.25rem;
-    margin-top: 0;
-    margin-left: 2.625rem;
-    position: relative;
-  }
-  .FAQ::after {
-    content: url("../../assets/images/desktop/illustration-box-desktop.svg");
-    filter: drop-shadow(0 0.625rem 0.625rem rgba(0, 0, 0, 0.3));
-    left: -5.8125rem;
-    position: absolute;
-    top: 12.75rem;
-  }
-  .FAQ__content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    overflow: hidden;
-    padding: 4.3rem 5.6rem 3.85rem 0;
-  }
-  .FAQ__title {
-    line-height: 1;
-    margin-bottom: 2.5rem;
-    text-align: left;
-  }
-  .FAQ__illustrations {
-    margin-bottom: 0.75rem;
-  }
   .accordion {
     padding-right: 1rem;
   }
