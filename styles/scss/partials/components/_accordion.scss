@@ -1,0 +1,39 @@
+@use "sass:map";
+@use "../base/variables";
+
+.accordion {
+  border-bottom: 0.0625rem solid
+    map.get(variables.$divider-colors, "light-blue");
+  padding-bottom: 1rem;
+
+  &[open] > &__summary {
+    color: map.get(variables.$primary-text-colors, "very-dark-blue");
+    font-weight: 700;
+  }
+
+  &[open] &__icon {
+    transform: rotate(180deg);
+  }
+
+  &__summary {
+    align-items: center;
+    color: map.get(variables.$neutral-text-colors, "very-dark-blue");
+    cursor: pointer;
+    display: flex;
+    font-size: 0.8125rem;
+    justify-content: space-between;
+    list-style-type: none;
+    transition: color 0.2s;
+
+    &:hover {
+      color: map.get(variables.$primary-text-colors, "soft-red");
+    }
+  }
+
+  &__description {
+    color: map.get(variables.$neutral-text-colors, "dark-blue");
+    font-size: 0.75rem;
+    line-height: 1.5;
+    margin-top: 0.75rem;
+  }
+}
