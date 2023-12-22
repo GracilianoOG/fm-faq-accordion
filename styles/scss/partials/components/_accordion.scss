@@ -37,3 +37,17 @@
     margin-top: 0.75rem;
   }
 }
+
+@media screen and (min-width: 62rem) {
+  .accordion {
+    padding-right: 1rem;
+
+    &__description {
+      font-size: 0.6875rem;
+    }
+
+    &__summary {
+      font-size: 0.875rem;
+    }
+  }
+}
