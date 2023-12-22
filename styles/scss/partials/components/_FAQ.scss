@@ -28,3 +28,37 @@
     width: fit-content;
   }
 }
+
+@media screen and (min-width: 62rem) {
+  .FAQ {
+    max-width: 56.25rem;
+    margin-top: 0;
+    margin-left: 2.625rem;
+    position: relative;
+
+    &::after {
+      content: url("../../assets/images/desktop/illustration-box-desktop.svg");
+      filter: drop-shadow(0 0.625rem 0.625rem rgba(0, 0, 0, 0.3));
+      left: -5.8125rem;
+      position: absolute;
+      top: 12.75rem;
+    }
+
+    &__content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      overflow: hidden;
+      padding: 4.3rem 5.6rem 3.85rem 0;
+    }
+
+    &__title {
+      line-height: 1;
+      margin-bottom: 2.5rem;
+      text-align: left;
+    }
+
+    &__illustrations {
+      margin-bottom: 0.75rem;
+    }
+  }
+}
