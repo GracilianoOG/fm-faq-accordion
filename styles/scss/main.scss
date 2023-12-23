@@ -3,6 +3,9 @@
 @use "./partials/base/base";
 @use "./partials/base/typography";
 
+// Utils
+@use "./partials/utils/animations";
+
 // Components
 @use "./partials/components/FAQ";
 @use "./partials/components/accordions";
