@@ -25,3 +25,9 @@
     opacity: 1;
   }
 }
+
+@keyframes levitate-box {
+  100% {
+    transform: translateY(-0.625rem) scaleX(0.96);
+  }
+}
