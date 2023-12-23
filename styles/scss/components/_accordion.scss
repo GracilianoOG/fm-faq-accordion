@@ -54,5 +54,13 @@
     &__summary {
       font-size: 0.875rem;
     }
+
+    &__summary:hover > &__title {
+      padding-left: 0.3125rem;
+    }
+
+    &__title {
+      transition: padding-left 0.25s;
+    }
   }
 }

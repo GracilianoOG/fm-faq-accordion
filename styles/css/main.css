@@ -153,6 +153,12 @@ h3 {
   .accordion__summary {
     font-size: 0.875rem;
   }
+  .accordion__summary:hover > .accordion__title {
+    padding-left: 0.3125rem;
+  }
+  .accordion__title {
+    transition: padding-left 0.25s;
+  }
 }
 .illustration--woman {
   position: absolute;
