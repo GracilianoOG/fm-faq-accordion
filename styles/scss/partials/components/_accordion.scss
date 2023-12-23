@@ -6,13 +6,17 @@
     map.get(variables.$divider-colors, "light-blue");
   padding-bottom: 1rem;
 
+  &__icon {
+    animation: rotate-icon-reverse 0.1s forwards;
+  }
+
   &[open] > &__summary {
     color: map.get(variables.$primary-text-colors, "very-dark-blue");
     font-weight: 700;
   }
 
   &[open] &__icon {
-    transform: rotate(180deg);
+    animation: rotate-icon 0.2s forwards;
   }
 
   &__summary {
