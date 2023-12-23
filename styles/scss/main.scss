@@ -1,13 +1,13 @@
 // Base
-@use "./partials/base/reset";
-@use "./partials/base/base";
-@use "./partials/base/typography";
+@use "./base/reset";
+@use "./base/base";
+@use "./base/typography";
 
 // Utils
-@use "./partials/utils/animations";
+@use "./utils/animations";
 
 // Components
-@use "./partials/components/FAQ";
-@use "./partials/components/accordions";
-@use "./partials/components/accordion";
-@use "./partials/components/illustration";
+@use "./components/FAQ";
+@use "./components/accordions";
+@use "./components/accordion";
+@use "./components/illustration";
