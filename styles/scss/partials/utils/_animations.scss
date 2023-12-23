@@ -1,0 +1,27 @@
+@keyframes rotate-icon {
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes rotate-icon-reverse {
+  0% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes show-component {
+  0% {
+    transform: translateY(-3.125rem);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
