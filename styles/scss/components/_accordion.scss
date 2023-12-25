@@ -2,9 +2,19 @@
 @use "../base/variables";
 
 .accordion {
+  $delay: 0.1s;
+
   border-bottom: 0.0625rem solid
     map.get(variables.$divider-colors, "light-blue");
+  opacity: 0;
   padding-bottom: 1rem;
+
+  @for $i from 1 through 5 {
+    &:nth-child(#{$i}) {
+      animation: show-accordion 0.5s $delay forwards;
+    }
+    $delay: $delay + 0.05s;
+  }
 
   &[open] > &__summary {
     color: map.get(variables.$primary-text-colors, "very-dark-blue");
