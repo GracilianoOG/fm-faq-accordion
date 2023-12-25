@@ -144,16 +144,6 @@ h3 {
 .accordion:nth-child(5) {
   animation: show-accordion 0.5s 0.3s forwards;
 }
-.accordion[open] > .accordion__summary {
-  color: hsl(238, 29%, 16%);
-  font-weight: 700;
-}
-.accordion[open] > .accordion__summary::after {
-  animation: rotate-icon 0.2s forwards;
-}
-.accordion[open] > .accordion__summary:hover {
-  color: hsl(14, 88%, 65%);
-}
 .accordion__summary {
   align-items: center;
   color: hsl(237, 12%, 33%);
@@ -177,6 +167,13 @@ h3 {
   line-height: 1.5;
   margin-top: 0.75rem;
   padding-right: 1rem;
+}
+:root :where(.accordion[open] > .accordion__summary) {
+  color: hsl(238, 29%, 16%);
+  font-weight: 700;
+}
+:root :where(.accordion[open] > .accordion__summary)::after {
+  animation: rotate-icon 0.2s forwards;
 }
 
 @media screen and (min-width: 62rem) {

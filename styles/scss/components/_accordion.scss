@@ -16,19 +16,6 @@
     $delay: $delay + 0.05s;
   }
 
-  &[open] > &__summary {
-    color: map.get(variables.$primary-text-colors, "very-dark-blue");
-    font-weight: 700;
-
-    &::after {
-      animation: rotate-icon 0.2s forwards;
-    }
-
-    &:hover {
-      color: map.get(variables.$primary-text-colors, "soft-red");
-    }
-  }
-
   &__summary {
     align-items: center;
     color: map.get(variables.$neutral-text-colors, "very-dark-blue");
@@ -55,6 +42,15 @@
     line-height: 1.5;
     margin-top: 0.75rem;
     padding-right: 1rem;
+  }
+
+  :root :where(&[open] > &__summary) {
+    color: map.get(variables.$primary-text-colors, "very-dark-blue");
+    font-weight: 700;
+
+    &::after {
+      animation: rotate-icon 0.2s forwards;
+    }
   }
 }
 
