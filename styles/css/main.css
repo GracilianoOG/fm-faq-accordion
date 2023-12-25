@@ -148,6 +148,9 @@ h3 {
   color: hsl(238, 29%, 16%);
   font-weight: 700;
 }
+.accordion[open] > .accordion__summary:hover {
+  color: hsl(14, 88%, 65%);
+}
 .accordion[open] .accordion__summary::after {
   animation: rotate-icon 0.2s forwards;
 }
