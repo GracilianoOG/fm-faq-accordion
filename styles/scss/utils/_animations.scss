@@ -31,3 +31,15 @@
     transform: translateY(-0.625rem) scaleX(0.96);
   }
 }
+
+@keyframes show-accordion {
+  0% {
+    opacity: 0;
+    transform: translateX(-1.25rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
