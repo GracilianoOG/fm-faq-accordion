@@ -118,14 +118,11 @@ h3 {
   border-bottom: 0.0625rem solid hsl(240, 5%, 91%);
   padding-bottom: 1rem;
 }
-.accordion__icon {
-  animation: rotate-icon-reverse 0.1s forwards;
-}
 .accordion[open] > .accordion__summary {
   color: hsl(238, 29%, 16%);
   font-weight: 700;
 }
-.accordion[open] .accordion__icon {
+.accordion[open] .accordion__summary::after {
   animation: rotate-icon 0.2s forwards;
 }
 .accordion__summary {
@@ -137,6 +134,10 @@ h3 {
   justify-content: space-between;
   list-style-type: none;
   transition: color 0.2s;
+}
+.accordion__summary::after {
+  animation: rotate-icon-reverse 0.1s forwards;
+  content: url("../../../assets/icons/icon-arrow-down.svg");
 }
 .accordion__summary:hover {
   color: hsl(14, 88%, 65%);

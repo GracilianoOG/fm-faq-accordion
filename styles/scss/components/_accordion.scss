@@ -6,16 +6,12 @@
     map.get(variables.$divider-colors, "light-blue");
   padding-bottom: 1rem;
 
-  &__icon {
-    animation: rotate-icon-reverse 0.1s forwards;
-  }
-
   &[open] > &__summary {
     color: map.get(variables.$primary-text-colors, "very-dark-blue");
     font-weight: 700;
   }
 
-  &[open] &__icon {
+  &[open] &__summary::after {
     animation: rotate-icon 0.2s forwards;
   }
 
@@ -28,6 +24,11 @@
     justify-content: space-between;
     list-style-type: none;
     transition: color 0.2s;
+
+    &::after {
+      animation: rotate-icon-reverse 0.1s forwards;
+      content: url("../../../assets/icons/icon-arrow-down.svg");
+    }
 
     &:hover {
       color: map.get(variables.$primary-text-colors, "soft-red");
