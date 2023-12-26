@@ -97,7 +97,7 @@ h3 {
   }
   .FAQ::after {
     animation: levitate-box 1s ease-in-out infinite alternate;
-    content: url("../../assets/images/desktop/illustration-box-desktop.svg");
+    content: url("./../../assets/images/desktop/illustration-box-desktop.svg");
     filter: drop-shadow(0 0.625rem 0.625rem rgba(0, 0, 0, 0.3));
     left: -5.8125rem;
     position: absolute;
@@ -156,7 +156,7 @@ h3 {
 }
 .accordion__summary::after {
   animation: rotate-icon-reverse 0.1s forwards;
-  content: url("../../../assets/icons/icon-arrow-down.svg");
+  content: url("./../../assets/icons/icon-arrow-down.svg");
 }
 .accordion__summary:hover {
   color: hsl(14, 88%, 65%);
